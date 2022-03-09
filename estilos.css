@@ -1,0 +1,386 @@
+/* Definición de tipo de fuente */
+@font-face {
+    font-family: 'Clarika';
+    src: url('Clarika Pro Grotesque Heavy.otf') format('OpenType');
+    font-style: normal;
+    font-weight:bolder;
+}
+
+@font-face {
+    font-family: 'Genera';
+    src: url('Aceh-Light.ttf') format('TrueType');
+    font-style: normal;
+    font-weight:bold;
+}
+
+/* Estilo para cuerpo de pagina */
+body{
+    margin: 0px;
+    width: 100%;
+    height: 200em;
+    background: white;
+    font-family: 'Clarika', normal, normal;
+
+}
+
+/* Estilo para header */
+#header{
+    height: 5%;
+    /* background: aqua; */
+}
+
+/* Estilo para la seccion del logo que se encuentra en el header */
+.logo{
+    width: 30%;
+    height: 100%;
+    /* background: rgb(175, 175, 175); */
+    float: left;
+}
+
+/* Estilo para la division en donde se localiza el texto del logo */
+.logotext{
+    width: 50%;
+    height: 40%;
+    margin: 2.5em auto;
+    background: white;
+    text-align: center;
+}
+
+/* Estilo del logo (texto) */
+.h1_1{
+    color:#3656d4;
+    font-size:35pt;
+    font-weight: bolder;
+}
+
+.navbtn{
+    width: 70%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    float: right;
+    /* -------- */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navdivbtn{
+    width: 14%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    margin: 0em 5px;
+}
+
+.button {
+    background-color: #ffffff; /* Green */
+    border: none;
+    color: #6d7b93;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    width: 100%;
+    height: 45%;
+    border-radius: 0.3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.selbuttn{
+    background-color: #3555d2;
+    color: #ffffff;
+    box-shadow: 5px 13px 5px #d2d7e4;
+}
+
+#section{
+    width: 100%;
+    height: 10%;
+    border-style: dashed;
+}
+
+#article{
+    height: 20%;
+}
+#footer{
+    width: 100%;
+    height: 20%;
+    border-style: dashed;
+    background-color: rgb(255, 255, 255);
+}
+
+.Page1 {
+    height: 30%;
+    display: flex;
+    align-items: stretch;
+}
+
+.leftpan {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lfpan1{
+    width: 100%;
+    height: 48%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+.h1st{
+    margin-top: 13%;
+    margin-left: 16%;
+    font-size: 60pt;
+    color: #1f3e72;
+}
+
+.p1st{
+    margin-top: 0%;
+    margin-left: 16%;
+    font-family: "Genera";
+    font-size: 20pt;
+    color: #6d7b93;
+
+}
+
+.lfpan2{
+    /* background: rgb(246, 255, 163); */
+    width: 100%;
+    height: 10%;
+    display: flex;
+    /* justify-content: center; */
+    margin-left: 15%;
+}
+
+.divlfpan2_1{
+    /* background: rgb(166, 255, 163); */
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.marcoicono{
+    /* background: rgb(138, 95, 95); */
+    width: 18%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadroicono{
+    background: rgb(255, 255, 255);
+    width: 50%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    box-shadow: 0px 9px 9px #fff9df;
+}
+
+.iconlpan2{
+    height:70%;
+    width:70%;
+    background: url("./protect.png") no-repeat center;
+    background-size:contain;
+}
+
+.icon2pan2{
+    background: url("./star.png") no-repeat center;
+    background-size:contain;
+}
+
+.iconltext2{
+    /* background: rgb(120, 171, 187); */
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17pt;
+    color: #1f3e72;
+}
+
+.divlfpan2_2{
+    /* background: rgb(166, 255, 163); */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.lfpan3{
+    /* background: rgb(75, 80, 29); */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content:left;
+    padding-left: 8em;
+    align-items: end;
+}
+
+.contenedorpnl3{
+    /* background: rgb(235, 145, 11); */
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content:center;
+    /* padding-left: 10em; */
+    align-items: center;
+}
+
+.divlfpan3_1{
+    /* background: rgb(166, 255, 163); */
+    width: 4em;
+    height: 4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadroiconop3{
+    background: rgb(255, 255, 255);
+    width: 50%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+    box-shadow: 0px 9px 9px #dde3ff;
+}
+
+.iconlpan3{
+    height:60%;
+    width:60%;
+    background: url("./schedule.png") no-repeat center;
+    background-size:contain;
+}
+
+.iconltext1p3{
+    /* background: rgb(120, 171, 187); */
+    width: auto;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23pt;
+    color: #1f3e72;
+}
+
+.lfpan4{
+    background: rgb(135, 150, 4);
+    width: 200%;
+    height: 22%;
+    position: relative;
+    left: -5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadropnl4{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background: rgba(245, 248, 255, 0.836);
+    width: 125%;
+    height:18%;
+    position: relative;
+    align-items: middle;
+    left: 20%;
+    border-radius: 1em;
+    box-shadow: 0px 20px 9px #dde8f986;
+}
+
+.divp4_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cd4p11{
+    /* background-color: #4060e2; */
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.cd4p12{
+    /* background-color: #2f48a8; */
+    height: 100%;
+    width: 75%;
+}
+
+.iconcd4{
+    background-color: #e9f1fe;
+    margin-top: 2em;
+    height: 2.3em;
+    width: 2.3em;
+    border-radius: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_a{
+    background: url("./location.png") no-repeat center;
+}
+
+.img_b{
+    background: url("./date.png") no-repeat center;
+}
+
+.img_c{
+    background: url("./vaccine.png") no-repeat center;
+}
+
+.imgiconcd4{
+    height: 70%;
+    width: 70%;
+    background-size:contain;
+}
+
+.txt1cd4pl2{
+    margin-top: 1em;
+    font-family: "Genera";
+    font-size: 25pt;
+    color: #6d7b93;
+}
+
+.txt2cd4pl2{
+    font-size: 25pt;
+    color: #1f3e72;
+}
+
+.vacsubmit{
+    width: 58%;
+    height: 35%;
+    border-width: 0px;
+    border-radius: 0.3em;
+    border-color: #3555d3;
+    background: #3555d3;
+    color: #fafafa;
+    font-size: 15pt;
+    font-weight: bold;
+    box-shadow:3px 10px 9px #abb7e9;
+}
+
+.img1pan{
+    height: 100%;
+    width: 50%;
+    background: url("./nurse.jpg") no-repeat center;
+    background-size: cover;
+}
