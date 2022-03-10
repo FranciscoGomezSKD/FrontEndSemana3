@@ -280,7 +280,7 @@ body{
 }
 
 .lfpan4{
-    background: rgb(135, 150, 4);
+    /* background: rgb(135, 150, 4); */
     width: 200%;
     height: 22%;
     position: relative;
@@ -423,4 +423,141 @@ body{
     height: 80%;
     /* background-color: #3555d3; */
     align-items: center;
+}
+
+.panelpag2x{
+    /* background-color: #1f3e72; */
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.div1pag2{
+    /* background-color: #3d7eee; */
+    width: 80%;
+    height: 38%;
+    margin-left: 12%;
+}
+
+.h1textpag2{
+    margin-top: 1em;
+    font-size: 40pt;
+    color: #1f3e72;
+}
+
+.ptextpag2{
+    font-size: 21pt;
+    font-family: "Genera";
+    color: #6d7b93;
+}
+
+.div2pag2{
+    margin:auto;
+    /* background-color: #719fee; */
+    width:80%;
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+/* .ben1{
+    background-color: #ee9471;
+}
+
+.ben2{
+    background-color: #eec671;
+}
+
+.ben3{
+    background-color: #dbee71;
+}
+
+.ben4{
+    background-color: #b8ee71;
+} */
+
+.dim_marco{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.benefitmarco{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    height: 80%;
+    border-radius: 0.5em;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+    border-style: solid;
+    border-color: #fafaff;
+}
+
+.benefitshadow{
+    box-shadow: 0px 20px 9px #dde8f986;
+}
+
+.benefitIconMark{
+    /* background-color: rgb(155, 152, 152); */
+    width: 90%;
+    height: 30%;
+    display:flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 1.5em;
+}
+
+.imgBenefitIcon1{
+    background: url("./infolist.png") no-repeat center;
+}
+
+.imgBenefitIcon2{
+    background: url("./blueprotect.png") no-repeat center;
+}
+
+.imgBenefitIcon3{
+    background: url("./people.png") no-repeat center;
+}
+
+.imgBenefitIcon4{
+    background: url("./stats.png") no-repeat center;
+}
+
+.benefiticon{
+    background-color: #f1f5ff;
+    width: 4em;
+    height: 4em;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5em;
+    background-size: contain;
+}
+
+.benefitTexbox{
+    /* background-color: rgb(155, 152, 152); */
+    width: 100%;
+    height: 70%;
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: column;
+    border-color: rgb(155, 152, 152);
+    margin-left: 1.5em;
+}
+
+.benefitsTitle{
+    margin-top: 0.5em;
+    font-size: 22pt;
+    color: #1f3e72;
+}
+
+.benefitsSubTitle{
+    margin-top: 1em;
+    font-size: 16pt;
+    font-family: "Genera";
+    color: #6d7b93;
 }
