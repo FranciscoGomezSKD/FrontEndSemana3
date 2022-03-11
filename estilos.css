@@ -315,7 +315,7 @@ body{
     width: 25%;
     display: flex;
     justify-content: center;
-    
+
 }
 
 .cd4p12{
@@ -603,13 +603,14 @@ body{
 }
 
 .prepPuntosPanelR{
-    background-color: #386dc9;
-    width: 100%;
+    /* background-color: #386dc9; */
+    width: 65%;
     height: 70%;
     display:flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
+    margin-right: 35%;
 }
 
 .prepTextTitle{
@@ -627,33 +628,22 @@ body{
 
 
 .divpuntos1{
-    background-color: #7a207a;
+    /* background-color: #7a207a; */
     width: 90%;
     height: 10%;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: #fafaff;
 }
 
 .divpuntos2{
-    background-color: #8d258d;
+    /* background-color: #8d258d; */
     width: 90%;
-    height: 40%;
-}
-
-.divpuntos3{
-    background-color: #a729a7;
-    width: 90%;
-    height: 10%;
-}
-
-.divpuntos4{
-    background-color: #ca34ca;
-    width: 90%;
-    height: 10%;
-}
-
-.divpuntos5{
-    background-color: #f53bf5;
-    width: 90%;
-    height: 10%;
+    height: 30%;
+    border-radius: 0.5em;
+    border-style: solid;
+    border-color: #fafaff;
+    box-shadow:3px 10px 9px #eef3fc;
 }
 
 .puntos{
@@ -663,12 +653,19 @@ body{
 }
 
 .puntoLeftIcon{
-    background-color: #c2c1c2;
+    /* background-color: #c2c1c2; */
     width: 8%;
     height: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.punto2LI{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 1.5em;
 }
 
 .puntoContIcon{
@@ -681,15 +678,36 @@ body{
     align-items: center;
 }
 
+.iconpoint1{
+    background: url("./unprotected.png") no-repeat center;
+}
+
+.iconpoint2{
+    background: url("./close.png") no-repeat center;
+}
+
+.iconpoint3{
+    background: url("./statsroud.png") no-repeat center;
+}
+
+.iconpoint4{
+    background: url("./check.png") no-repeat center;
+}
+
+.iconpoint5{
+    background: url("./heart.png") no-repeat center;
+}
+
 .IconCont{
     width: 2em;
     height: 2em;
-    background: url("./infolist.png") no-repeat center;
     background-size: cover;
 }
 
+
+
 .puntoCenterText{
-    background-color: #929192;
+    /* background-color: #929192; */
     width: 87%;
     height: 100%;
 }
@@ -710,12 +728,19 @@ body{
 }
 
 .puntoRightArrow{
-    background-color: #696969;
+    /* background-color: #696969; */
     width: 5%;
     height: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
+}
+
+.punto2LRA{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 2.5em;
 }
 
 .puntoArrowIcon{
@@ -728,9 +753,16 @@ body{
     align-items: center;
 }
 
+.iconarrow1{
+    background: url("./arrow_down.png") no-repeat center;
+}
+
+.iconarrow2{
+    background: url("./arrow_up.png") no-repeat center;
+}
+
 .IconArrow{
     width: 1em;
     height: 1em;
-    background: url("./infolist.png") no-repeat center;
     background-size: cover;
 }
