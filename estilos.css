@@ -561,3 +561,66 @@ body{
     font-family: "Genera";
     color: #6d7b93;
 }
+
+.space{
+    width: 100%;
+    height: 5%;
+}
+
+.preparationPanel{
+    /* background-color: #1f3e72; */
+    width: 100%;
+    height: 30%;
+    /* display:flex;
+    justify-content: center;
+    align-items: flex-end; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: end;
+}
+
+.preparationImage{
+    height: 80%;
+    width: 92%;
+    background: url("./mujer.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.preparationPanelR{
+    /* background-color: #2a549b; */
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.prepTextoPanelR{
+    /* background-color: #305ead; */
+    width: 100%;
+    height: 30%;
+}
+
+.prepPuntosPanelR{
+    background-color: #386dc9;
+    width: 100%;
+    height: 70%;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.prepTextTitle{
+    margin-top: 0.5em;
+    font-size: 35pt;
+    color: #1f3e72;
+}
+
+.prepTextSubTitle{
+    margin-top: 1.5em;
+    font-size: 20pt;
+    font-family: "Genera";
+    color: #6d7b93;
+}
